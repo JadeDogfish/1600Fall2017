@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Animal : MonoBehaviour {
 
-	// By the end of the class only half had stayed enrolled. We learned Java, though.
 	public virtual void Start () {
 		Die();
 		Eat();
