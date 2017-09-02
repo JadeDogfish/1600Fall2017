@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Animal : MonoBehaviour {
 
-	// This scripting stuff is giving me a headache
+	// I'll be fine, though. I took a computer programming class in high school.
 	public virtual void Start () {
 		Die();
 		Eat();
