@@ -11,13 +11,13 @@ public class Animal : MonoBehaviour {
 	}
 
 	void Die() {
-		print(this.name + " dies");
+		print(this.name + " dies eventually.");
 	}
 	void Eat() {
-		print(this.name + " eats");
+		print(this.name + " eats a TON of food.");
 	}
 	void Sleep() {
-		print(this.name + " sleeps");
+		print(this.name + " sleeps like a rock.");
 	}
 	// Update is called once per frame
 	void Update () {
