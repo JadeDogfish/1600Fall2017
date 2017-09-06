@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 Words are being written in this very important file! Bug is fixed.
+=======
+Words are being written in this very important file!
+>>>>>>> Feature
