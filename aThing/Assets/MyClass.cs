@@ -17,12 +17,23 @@ public class MyClass : MonoBehaviour {
 	// The "()" are for parameters. It tells the computer what exactly to do with a particular command.
 	// Like with print(), which will simply print what you put in the "()".
 	// Quotes are basically telling the computer that the contents are not code, but a string. 
+	
+	
 	string myString = "Hello";
 	int x = 2; int y = 3;
+	double num1 = 3.2; double num2 = 9.5;
+	char letter = 'a';
+	float num3 = 100f;
 	void Start () {
 		print(myString);
 		print(x + y);
 	}
 	
+	// Now I'm gonna talk about variables. I've used two already: "int" and "string".
+	// int is short for integer, which is used for whole numbers.
+	// string is for sets of words, like sentances or phrases.
+	// char means character, meaning a single character, like: char letter = 'a';
+	// double is for numbers with decimals.
+	// float is for decimals too, but it doesn't store as many decimal places as double.
 	
 }
