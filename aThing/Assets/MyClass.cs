@@ -24,9 +24,32 @@ public class MyClass : MonoBehaviour {
 	double num1 = 3.2; double num2 = 9.5;
 	char letter = 'a';
 	float num3 = 100f;
+	bool switch1 = true;
 	void Start () {
 		print(myString);
 		print(x + y);
+
+		print(num1 - num2);
+		print(--num3);
+		print(++num2);
+		
+		if(num1 <= 3.2){
+			print("true.");
+		}
+		if(num1 > x){
+			print("false.");
+		}
+		if(num2 >= 10.5){
+			print("true.");
+		}
+		if(switch1 == true){
+			print(num1 / num3);
+			print(num2 * num1);
+			
+
+		}else{
+			print(letter);
+
 	}
 	
 	// Now I'm gonna talk about variables. I've used two already: "int" and "string".
@@ -36,4 +59,17 @@ public class MyClass : MonoBehaviour {
 	// double is for numbers with decimals.
 	// float is for decimals too, but it doesn't store as many decimal places as double.
 	
+	// All the way down here is stuff about math operators.
+	// ++variable adds one to the variable like on line 33.
+	// --variable takes one away, like on line 32.
+	// Then there's addition on line 30.
+	// Subtraction on line 32.
+	// A comparison, less than or equal to, on line 36.
+	// Another, more than, on line 39.
+	// Another, more than or equal to, on line 42.
+	// Another, equal to, on line 45.
+	// Division on line 46.
+	// multiplication on line 47.
+	
+}
 }
