@@ -10,6 +10,8 @@ public class ifStatement : MonoBehaviour {
 	void update(){
 		if(input.text == password){
 			print("Password Accepted.");
+		}else{
+			print("Password Denied.");
 		}
 	}
 }
