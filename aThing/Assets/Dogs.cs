@@ -6,7 +6,7 @@ public class Dogs : MonoBehaviour {
 	// Hi. I wrote this whole program, pretty much. I think I understand If-statements. There's a bunch of 'em here.
 	// Basically, you're just meant to choose which dogs to pet while you're in Unity, and the program tells you the results.
 	private string[] dogNames = new string[3] {"Bulldog","Cat","Beagle"};
-	public float asYouWalk = 1000f;
+	public float asYouWalk = 1f;
 	public bool petBullDog = false;
 	public bool petSmallDog = false;
 	public bool petBeagle = false;
