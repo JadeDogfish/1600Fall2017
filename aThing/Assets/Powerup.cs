@@ -1,8 +1,6 @@
-﻿
-using UnityEngine;
+﻿using UnityEngine;
 
-public class Powerup : MonoBehaviour {
-
+public class PowerUp : MonoBehaviour {
 	void OnTriggerEnter()
 	{
 		gameObject.SetActive(false);
