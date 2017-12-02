@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Customers : MonoBehaviour {
-	
+	// randomly generates an order
 	public string[] iceCream = {"Cookies and Cream", "Vanilla", "Chocolate", "Mint", "Strawberry", "Chocolate and Vanilla Twist"};
 	public string[] toppings = {"Chocolate Syrup", "Sprinkles", "A Banana"};
 	public int[] orderNum = {1, 2, 3, 4, 5, 6};

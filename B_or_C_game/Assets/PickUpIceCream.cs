@@ -3,15 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class PickUpIceCream : MonoBehaviour {
+	// picks up a scoop of ice cream and adds it to the inventory
 	public string[] iceCream = {"Cookies and Cream", "Vanilla", "Chocolate", "Mint", "Strawberry", "Chocolate and Vanilla Twist"};
 	public string[] toppings = {"Chocolate Syrup", "Sprinkles", "A Banana"};
 	public string[] inventory = new string[9];
 	public string inCone;
 	// Use this for initialization
 	void update (){
-		if(scoop = 1){
-
-		}
+		
 		
 	}
 	public void PickUp () {
