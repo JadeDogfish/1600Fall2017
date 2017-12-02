@@ -9,7 +9,9 @@ public class PickUpIceCream : MonoBehaviour {
 	public string inCone;
 	// Use this for initialization
 	void update (){
-		
+		if(scoop = 1){
+
+		}
 		
 	}
 	public void PickUp () {

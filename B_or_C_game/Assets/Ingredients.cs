@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Ingredients : MonoBehaviour {
-
+	public bool canScoop = false;
 	// Use this for initialization
 	void Start () {
 		
@@ -12,5 +12,15 @@ public class Ingredients : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		
+	}
+	void OnTriggerEnter(Collider other){
+		if(other.gameObject.tag == "Player"){
+			canScoop = true;
+		}
+	}
+	void OnTriggerExit(Collider other){
+		if(other.gameObject.tag == "Player"){
+			canScoop = false;
+		}
 	}
 }
