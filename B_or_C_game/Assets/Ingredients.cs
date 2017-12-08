@@ -5,12 +5,7 @@ using UnityEngine;
 public class Ingredients : MonoBehaviour {
 	// makes it possible to pick up anything
 	public bool canScoop = false;
-	// Use this for initialization
-	void Start () {
-		
-	}
 	
-	// Update is called once per frame
 	void Update () {
 		if(canScoop == true && Input.GetKeyDown(KeyCode.Space)){
 			

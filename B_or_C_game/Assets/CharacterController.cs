@@ -5,8 +5,6 @@ using UnityEngine;
 public class CharacterController : MonoBehaviour {
 	// Controls the character
 	public float speed = 10f;
-	float moveLeftRight = Input.GetAxis("Horizontal");
-	float moveForwardBack = Input.GetAxis("Vertical");
 	public float scoop = Input.GetAxis("Jump");
 	// Use this for initialization
 	void Start () {
@@ -14,7 +12,8 @@ public class CharacterController : MonoBehaviour {
 		
 	}
 	void Update () {
-		
+		float moveLeftRight = Input.GetAxis("Horizontal");
+		float moveForwardBack = Input.GetAxis("Vertical");		
 		Vector3 move = new Vector3(moveLeftRight, 0f, moveForwardBack);
 		transform.Translate(move * Time.deltaTime * speed);
 	}
