@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Customers : MonoBehaviour {
 	// randomly generates an order
+	// doesn't work 100% of the time for some reason, don't know why
+	// also probably longer than needed, but can't figure out a better way to do it
 	public string[] iceCream = {"Cookies and Cream", "Vanilla", "Chocolate", "Mint", "Strawberry", "Chocolate and Vanilla Twist"};
 	public string[] toppings = {"Chocolate Syrup", "Sprinkles", "A Banana"};
 	public int[] orderNum = {1, 2, 3, 4, 5, 6};
@@ -107,7 +109,7 @@ public class Customers : MonoBehaviour {
 				print("I'd like a triple scoop with " +result1+ ", " +result2+ ", and " +result3+ " with " +result4+ " please.");
 				break;
 			case 7:
-				print("No one is here.");
+				print("MissingNo.");
 				break;
 			
 			
